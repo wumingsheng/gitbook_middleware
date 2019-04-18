@@ -73,6 +73,9 @@ compile 'io.grpc:grpc-stub:1.20.0'
 </build>
 ```
 
+> 因此最终解决的办法是将本地下载的os-maven-plugin jar添加到${ECLIPSE_HOME}/plugins目录下，问题解决！
+
+
 如果是 `gradle`项目，在`build.gradle`文件
 
 ```groovy
